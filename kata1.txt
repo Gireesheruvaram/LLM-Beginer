@@ -1,0 +1,44 @@
+Intro
+Kata 1: Analyze Attention Maps for a Sentence
+Objective: Explore how attention is distributed across different tokens in a sentence.
+Task:
+Choose a simple sentence (e.g., "The cat sat on the mat").
+Imagine or sketch an attention map showing how each word in the sentence might focus on other words using the attention mechanism.
+Explain why certain words would pay more attention to others (e.g., subject-verb relations, important context).
+Steps:
+Review how attention mechanisms work from "The Illustrated Transformer."
+Think about which words would focus on each other. For example, "cat" might focus more on "sat" than "mat."
+Create a basic attention map (on paper or digitally) to show which tokens attend to others and why.
+Expected Outcome:
+A hand-drawn or digitally created attention map for a simple sentence, with a brief explanation of why specific words focus on others.
+
+
+"Explain how attention mechanisms work in a Transformer model. Include details about Query, Key, Value, and how attention scores are calculated."
+Attention mechanisms in Transformer models are a crucial component that allows the model to focus on different parts of the input sequence when making predictions. 
+
+
+"Analyze the sentence 'The cat sat on the mat' and identify linguistic relationships such as subject-verb, preposition-object, and noun-modifier. List these relationships."
+Here is the linguistic analysis of the sentence "The cat sat on the mat", identifying key relationships:
+
+1. Subject-Verb Relationship
+Subject: "The cat"
+Verb: "sat"
+Relationship: The noun phrase "The cat" is the subject performing the action of the verb "sat."
+2. Preposition-Object Relationship
+Preposition: "on"
+Object of the Preposition: "the mat"
+Relationship: The preposition "on" connects the verb "sat" to the object "the mat," indicating the spatial relationship.
+3. Noun-Modifier Relationships
+Noun: "cat"
+Modifier: "The"
+Relationship: "The" is a determiner that modifies the noun "cat" to specify which cat is being referred to.
+Noun: "mat"
+Modifier: "The"
+Relationship: "The" is a determiner that modifies the noun "mat" to specify which mat is being referred to.
+
+Summary of Relationships
+Subject-Verb: "The cat" → "sat"
+Preposition-Object: "on" → "the mat"
+Noun-Modifier:
+"The" → "cat"
+"The" → "mat"
