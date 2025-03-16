@@ -1,3 +1,4 @@
+x<<<<<<< HEAD
 ## 5. Prompt Engineering DRAFT
 
 ### Problem 1
@@ -12,3 +13,18 @@ Deliverables:
 - A document detailing the prompts used for both stages of the process, including the rationale behind the prompt design and any iterations or refinements made.
 - Examples of generic questions, the JSON outputs generated from these questions, and the final SQL queries produced.
 - A brief analysis of the system's effectiveness, including any challenges encountered in guiding the LLM to produce accurate and relevant outputs at both stages.
+=======
+
+
+Kata 3: Retrieval-Augmented Generation (RAG) using LangChain
+Objective: Build a knowledge-enhanced LLM by integrating LangChain's document retrieval capabilities.
+Task:
+Use LangChain’s retrieval tools to augment a language model's capabilities by retrieving relevant information from a document store.
+The model should be able to answer questions by querying a local or external database or knowledge base.
+Steps:
+Set up a document store (e.g., using Pinecone, Weaviate, FAISS, or another vector database).
+Implement LangChain’s document retrieval functionality.
+Connect the LLM to retrieve documents based on user queries and use the retrieved information to generate contextually accurate responses.
+Expected Outcome:
+A system where the LLM pulls relevant documents or facts from a database to enhance its responses with factual information, mimicking a knowledge-augmented chatbot.
+>>>>>>> 45f96449da563fd70e8e410bc877df0f1132d05b
